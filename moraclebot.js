@@ -16,7 +16,7 @@ myBot.on('ready', function () {
 
 // Loading global variables
 const greeting = "Welcome travelers!\nYou have found the hallowed hall of the Movie Oracle.\nThis months movie will be.....\n  ";
-const movieResponse = ["Crimson Peak", "Nightcrawler", "Sorry to Bother You", "Annihilation", "Eraserhead", "Suspiria", "The Thing", "Taxi Driver"]
+const movieResponse = ["Crimson Peak", "Sorry to Bother You", "Eraserhead", "Suspiria", "Taxi Driver"]
 
 // The onMessage event handler
 myBot.on('message', function (message) {
